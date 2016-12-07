@@ -1,0 +1,54 @@
+.pibox{
+    width: 100%;
+    text-align: center;
+}
+/*Efect 1 ---------------*/
+.efect1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/*Efect 2 ---------------*/
+.pibox div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.efect2{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+}
+/*Efect 3 ---------------*/
+
+.efect3{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+}
+.transition3 {
+   margin: 10px;
+    -webkit-transform: scale(1.22); 
+    -moz-transform: scale(1.22);
+    -o-transform: scale(1.22);
+    transform: scale(1.22);
+}

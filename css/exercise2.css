@@ -1,0 +1,12 @@
+.additem-size{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.additem-list {
+    max-width: 500px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.additem-list li{
+    list-style-type: upper-roman;
+}

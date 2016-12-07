@@ -1,0 +1,27 @@
+.load-json-box{
+    min-height: 200px;
+}
+.load-json-buttons button{
+    width: 100%;
+    margin: 10px 0;
+}
+.jsonbox{
+    text-align: center;
+}
+.center-table{
+    display: table;
+}
+.center-table p{
+  height: 170px;
+  display: table-cell;
+  background: black;
+  color: white;
+  padding: 20px;
+  border: 10px solid white;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 26px;
+}
+.disable{
+    display: none;
+}

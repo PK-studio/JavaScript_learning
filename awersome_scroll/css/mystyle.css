@@ -1,0 +1,68 @@
+/*#bgVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}*/
+section {
+    display: block;
+    height: 100vh;
+}
+article h1, h3{
+    margin: 5px 0;
+}
+article .btn-lg{
+    margin-top: 15px;
+    padding: 7px 16px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+}
+.big-box{
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top,rgba(255,255,255,1),rgba(255,255,255,0.6)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom,rgba(255,255,255,1),rgba(255,255,255,.6)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom,rgba(255,255,255,1),rgba(255,255,255,.6)); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,.6)); /*Standard*/
+}
+.small-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.demo{
+    max-height: 200px;
+    width: auto;
+}
+@media(min-width: 767px){
+.parallax{
+    background-image: url('../bg1.jpg');
+    min-height: 100vh;
+     /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big-box{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(255,255,255,1),rgba(255,255,255,0.6)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,.6)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,255,255,1),rgba(255,255,255,.6)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,.6)); /*Standard*/
+    width: 40%;
+    display: table;
+    height: 100vh;
+}
+}

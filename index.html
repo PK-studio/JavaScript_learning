@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sticky Footer Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/exercise2.css" rel="stylesheet">
+    <link href="css/exercise3.css" rel="stylesheet">
+    <link href="css/exercise4.css" rel="stylesheet">
+    <link href="css/exercise5.css" rel="stylesheet">
+    <link href="css/exercise6.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      
+      <div class="page-header">
+        <div><h1>JavaScript</h1></div>
+        <div><p>Exercises, Examples, Tasks</p></div>
+      </div>
+
+      <!--OPENER //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#opener">Opener</h4>
+        <p class="title-small">#exercise1.js</p>
+        <div id="opener" class="collapse">
+        <div class="exercise-overlay">
+
+          <h5>Functionality which open panels</h5>
+          
+        </div>
+        </div>  
+      </div>
+
+      <!--ADD & REMOVE ITEM //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#ex-additem">List of Elements: Add & Remove</h4>
+        <p class="title-small">#exercise2.js, #exercise2.css</p>
+        <div id="ex-additem" class="collapse">
+        <div class="exercise-overlay">
+
+          <div class="additem-size input-group">
+            <input id="myText" type="text" class="form-control" placeholder="Tape a name of new element">
+            <span class="input-group-btn">
+              <button id="add-button" class="btn btn-default" type="button">Create!</button>
+              <button id="remove-button" class="btn btn-default" type="button">Remove!</button>
+            </span>
+          </div>
+
+          <ul id="lilist"class="additem-list">
+            <li>First item</li>
+            <li>Next one</li>
+            <li>Another</li>
+          </ul>
+
+        </div>
+        </div>  
+      </div>
+
+      <!--slideshow //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#slideshow">Slide Show:</h4>
+        <p class="title-small">#exercise3.js, #exercise3.css</p>
+        <div id="slideshow" class="collapse">
+        <div class="exercise-overlay">
+
+              <div id="quotspace"></div>
+
+          </div>
+        </div>  
+      </div>
+
+      <!--Load Jeson //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#loadJson">Pretending JSON file:</h4>
+        <p class="title-small">#exercise4.js, #exercise4.css, #exercise4.json</p>
+        <div id="loadJson" class="collapse">
+        <div class="exercise-overlay load-json-box">
+
+              <div calss="row" >
+                <div class="col-sm-4 load-json-buttons">
+                  <button type="button" class="btn btn-default" value="1st employee">1st employee</button>
+                  <button type="button" class="btn btn-default" value="2st employee">2nd employee</button>
+                  <button type="button" class="btn btn-default" value="3st employee">3rd employee</button>
+                </div>
+                <div class="col-sm-8 disable center-table">
+                  <p id="jsonfile"></p>
+                </div>
+              </div>
+
+        </div>
+        </div>  
+      </div>
+
+      <!--Active Menu //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#activemenu">Active menu</h4>
+        <p class="title-small">#exercise5.js, #exercise5.css</p>
+        <div id="activemenu" class="collapse">
+        <div class="exercise-overlay">
+
+          <div class="activemenu">
+          <ul>
+            <li rel="panel1" class="active">First Box</li>
+            <li rel="panel2">Secound Box</li>
+            <li rel="panel3">Thierd Box</li>
+          </ul>
+          <div class="panel" id="panel1">
+            <p>Item No1</p>
+            <p>Item No2</p>
+            <p>Item No3</p>
+          </div>
+          <div class="panel active" id="panel2">
+            <p>Item No4</p>
+            <p>Item No5</p>
+            <p>Item No6</p>
+          </div>
+          <div class="panel" id="panel3">
+            <p>Item No7</p>
+            <p>Item No8</p>
+            <p>Item No9</p>
+          </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+      <!--Zoom - mouseover piscture efect //////////////////////////////////////////-->
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#zoommouse">Zoom picture efect</h4>
+        <p class="title-small">#exercise6.js, #exercise6.css</p>
+        <div id="zoommouse" class="collapse">
+        <div class="exercise-overlay">
+
+          <div class="pibox">
+            <img class="efect1"src="imgs/exercise6-1.jpeg">
+            <img class="efect1"src="imgs/exercise6-2.jpeg">
+            <img class="efect1"src="imgs/exercise6-3.jpeg">
+          </div>
+
+          <div class="pibox">
+            <div><img class="efect2"src="imgs/exercise6-1.jpeg"></div>
+            <div><img class="efect2"src="imgs/exercise6-2.jpeg"></div>
+            <div><img class="efect2"src="imgs/exercise6-3.jpeg"></div>
+          </div>
+
+          <div class="pibox">
+            <img class="efect3"src="imgs/exercise6-1.jpeg">
+            <img class="efect3"src="imgs/exercise6-2.jpeg">
+            <img class="efect3"src="imgs/exercise6-3.jpeg">
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+      <div class="exercise">
+        <h4 class="title-big" data-toggle="collapse" data-target="#confirm">Confirmation Action</h4>
+        <p class="title-small">#exercise7.js</p>
+        <div id="confirm" class="collapse" data-confirm="Are you sure to delete this item?">
+        <div class="exercise-overlay">
+
+          <a href="#" class="js-confirm" data-confirm="Are you sure to delete this item?">Delete</a>
+          <a href="#" class="js-confirm" data-confirm="Are you sure to delete this item?">Delete</a>
+          <a href="#" class="js-confirm" data-confirm="Are you sure to delete this item?">Delete</a>  
+
+        </div>
+        </div>
+      </div>
+
+    <footer class="footer">
+    </footer>
+
+  </body>
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--<script src="js/bootstrap.js"></script>-->
+    <script src="js/exercises/workinghrs.js"></script>
+    
+    <script src="js/exercises/exercise1.js"></script>
+    <script src="js/exercises/exercise2.js"></script>
+    <script src="js/exercises/exercise3.js"></script>
+    <script src="js/exercises/exercise4.js"></script>
+    <script src="js/exercises/exercise5.js"></script>
+    <script src="js/exercises/exercise6.js"></script>
+    <script src="js/exercises/exercise7.js"></script>
+</html>

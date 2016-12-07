@@ -1,0 +1,12 @@
+#quotspace {
+    max-width: 500px;
+    margin: auto;
+    color: #7b8ad9;
+}
+#quotspace p:first-child{
+    font-size: 110%;
+}
+#quotspace p:last-child{
+    font-size: 90%;
+    color: #0028f8;
+}

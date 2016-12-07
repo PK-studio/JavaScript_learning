@@ -1,0 +1,28 @@
+.activemenu{
+    margin: 0 30px;
+}
+.activemenu ul{
+    margin: auto;
+    text-align: center;
+}
+.activemenu li{
+    background: #f6dada;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+.activemenu .active{
+     background: #ffa2a2;
+}
+.activemenu .panel{
+    display: none;
+    padding: 10px 30px;
+    background: #ffa2a2;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+}
+.panel.active{
+    display: block;
+}
+

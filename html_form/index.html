@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <script>
+    let data = "";
+    let list = [];
+    let activate = (value) => {
+      let htmlEl = document.getElementById("header");
+      if(value) htmlEl.innerHTML = "You can type now"
+      else htmlEl.innerHTML = "Enter text box to type"
+    }
+    let updateData = (input) => {
+      data = input.value;
+    };
+    let removeAll = () => {
+      list.splice(0, list.length);
+      cleanInput();
+      displayOutput();
+    }
+    let removeFirst = () => {
+      list.shift();
+      cleanInput();
+      displayOutput();
+    }
+    let removeLast = () => {
+      list.pop();
+      cleanInput();
+      displayOutput();
+    }
+    let cleanInput = () => {
+      data = "";
+      document.getElementById("input").value = "";
+    };
+    let displayOutput = () => {
+      let htmlEl = document.getElementById("text");
+      let htmlList = list.map(elem => {
+        return "<p>"+elem+"</p>"; 
+      }).join("");
+      htmlEl.innerHTML = htmlList;
+    };
+    let addToList = () => {
+      list.unshift(data);
+      cleanInput();
+      displayOutput();
+    };
+  </script>
+</head>
+<body>
+  <h3 style="color: blue;" id="header"></h3>
+  <input id="input" type="text" onchange="updateData(this)" onfocus="activate(true)" onblur="activate(false)">
+  <input type="submit" value="add" onclick="addToList()">
+  <input type="submit" value="remove all" onclick="removeAll()">
+  <input type="submit" value="remove first" onclick="removeFirst()">
+  <input type="submit" value="remove last" onclick="removeLast()">
+  <div id="text"></div>
+</body>
+<script>
+    activate(false);
+  </script>
+</html>
